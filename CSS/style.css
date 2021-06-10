@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Allan', cursive;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../Img/JhonWick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.content{
+    margin-top: 40px;
+    max-width: 1000px;
+    min-height: 500px;
+    width: 100%;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.404);
+    border-top: 6px solid #8e39f0;
+}
+h1{
+    color: #212F3C;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+embed{
+    margin-top: 20px;
+}
